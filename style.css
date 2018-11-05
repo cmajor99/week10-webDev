@@ -1,0 +1,27 @@
+div{
+    width: 100%;
+    height: 300px;
+}
+    div.Div1{
+background-color: grey;
+    }
+    div.Div2{
+        background-image: url("city.jpg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    div.Div3, div.Div4{
+        position: absolute;
+        left: 0px;
+        top: 600px;
+    }
+    div.Div3{
+        background-image: url("city.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    div.Div4{
+        background-color: red;
+        opacity: 0.3;
+    }
